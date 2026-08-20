@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Navbar from "./pages/navbar/navbar ";
+import Navbar from "./pages/navbar/navbar";
 import Announcement from "./pages/announcement/announcement";
 import Courses from "./pages/courses/courses";
 import Dashboard from "./pages/dashboard/dashboard";
@@ -9,6 +9,7 @@ import Profile from "./pages/profile/profile";
 import Settings from "./pages/settings/settings";
 import Support from "./pages/support/support";
 import TimeTable from "./pages/timetable/timetable";
+import SignInPage from "./pages/signinpage/signinpage";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
             />
             <Route 
               path="/timetable"
-              element = {<Timetable />}
+              element = {<TimeTable />}
             />
             <Route 
               path="/grades"
@@ -54,8 +55,8 @@ function App() {
             />
           </Routes>
         </BrowserRouter>
-  )
-}
+  );
+};
 
 export default App;
 
