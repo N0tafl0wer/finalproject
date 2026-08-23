@@ -18,10 +18,10 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        {/* SIGN IN PAGE - NO NAVBAR */}
+      
         <Route path="/" element={<SignInPage />} />
 
-        {/* DASHBOARD SECTION - HAS NAVBAR */}
+      
         <Route path="/dashboard" element={<DashboardLayout />}>
 
           <Route index element={<Dashboard />} />

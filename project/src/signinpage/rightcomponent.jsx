@@ -9,9 +9,9 @@ const Rightsection = () => {
     const navigate = useNavigate();
 return(
     <div className="w-1/2 h-screen justify-center flex">
-      <div className="flex flex-col px-8 md:px-16 bg-gray-200 w-full h-full">
-
-        <h2 className="text-[33px] font-semibold mt-[30px]">
+      <div className="flex bg-gray-200 justify-center px-8 md:px-16  w-full h-full">
+<div className="flex flex-col w-[90%]">
+        <h2 className="text-[33px] font-semibold mt-[80px]">
           Brainbench
         </h2>
         <p className="text-[25px] font-semibold">
@@ -65,7 +65,7 @@ return(
         ">
          Sign in
         </button>
-    
+   </div> 
 </div>
 </div>
 
