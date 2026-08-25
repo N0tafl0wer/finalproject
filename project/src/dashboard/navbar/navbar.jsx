@@ -4,7 +4,7 @@ function Navbar() {
     
     return(
         <>
-          <nav className="flex flex-col w-70 h-screen justify-between bg-[#F0F4FF] p-6 ">
+          <nav className="flex flex-col w-72 h-screen justify-between bg-[#F0F4FF] p-6 ">
                 <div>
                     <div className="flex items-center">
                         <div className="flex justify-center items-center bg-[#021330] w-11 h-full aspect-square shrink-0 p-2.5 rounded-xl">

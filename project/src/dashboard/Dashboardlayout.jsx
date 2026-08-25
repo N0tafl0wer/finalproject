@@ -3,12 +3,14 @@ import Navbar from "./navbar/navbar";
 
 const DashboardLayout = () => {
   return (
-    <div>
+    <div className="flex min-h-screen">
+
       <Navbar />
 
-      <main>
+      <main className="flex-1">
         <Outlet />
       </main>
+
     </div>
   );
 };
