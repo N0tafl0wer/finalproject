@@ -239,7 +239,7 @@ const Support = () => {
                 <div className="fixed inset-0 bg-black/40 z-50 flex justify-end transition-opacity">
                     <div className="bg-white w-full max-w-sm h-full flex flex-col shadow-2xl animate-in slide-in-from-right duration-300">
                     
-                    {/* 1. Header (Fixed Height) */}
+                    
                     <div className="bg-emerald-600 text-white p-4 flex items-center justify-between shrink-0">
                         <div className="flex items-center gap-2">
                         <MessageSquare className="w-4 h-4" />
@@ -253,7 +253,7 @@ const Support = () => {
                         </button>
                     </div>
 
-                    {/* 2. Messages List (Takes remaining height and scrolls) */}
+                    
                     <div className="flex-1 p-4 overflow-y-auto space-y-3 bg-gray-50">
                         {chatMessages.map((msg, index) => (
                         <div 
@@ -271,7 +271,7 @@ const Support = () => {
                         ))}
                     </div>
 
-                    {/* 3. Bottom Form (Fixed to bottom with shrink-0) */}
+                    
                     <form onSubmit={handleSendMessage} className="p-3 border-t border-gray-200 bg-white flex items-center gap-2 shrink-0">
                         <input 
                         type="text" 
@@ -367,7 +367,7 @@ const Support = () => {
             {isTicketSuccessOpen && (
                 <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 animate-in fade-in duration-200">
                 <div className="bg-white rounded-2xl max-w-sm w-full p-6 text-center shadow-xl relative transform transition-all scale-100">
-                    {/* Close Button Icon */}
+                    
                     <button
                     onClick={closeTicketModel}
                     className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors"
@@ -375,7 +375,7 @@ const Support = () => {
                     <X className="w-5 h-5" />
                     </button>
 
-                    {/* Modal Content */}
+                    
                     <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <CheckCircle2 className="w-7 h-7 text-green-600" />
                     </div>
