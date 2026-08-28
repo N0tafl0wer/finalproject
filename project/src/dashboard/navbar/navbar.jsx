@@ -4,11 +4,7 @@ function Navbar() {
     
     return(
         <>
-<<<<<<< Updated upstream
-          <nav className="flex flex-col w-72 h-screen justify-between bg-[#F0F4FF] p-6 ">
-=======
           <nav className="flex flex-col w-70 h-screen justify-between bg-[#F0F4FF] p-6 ">
->>>>>>> Stashed changes
                 <div>
                     <div className="flex items-center">
                         <div className="flex justify-center items-center bg-[#021330] w-11 h-full aspect-square shrink-0 p-2.5 rounded-xl">
@@ -36,19 +32,11 @@ function Navbar() {
                             <i className="fa-solid fa-star text-[25px]"></i>
                             <span>Grades</span>
                         </NavLink>
-<<<<<<< Updated upstream
-                        <NavLink to="/dashboard/feesandpayment" className={({ isActive }) => isActive ? "flex items-center gap-3 rounded-[10px] text-[15px] font-[700] bg-blue-100 text-blue-600 mb-5 h-14 p-3" : "flex items-center gap-3 text-[15px] font-[700] rounded-[10px] text-slate-600 hover:bg-[#DCE6FF] mb-5 h-14 p-3"}>
-                            <i className="fa-solid fa-wallet text-[25px]"></i>
-                            <span>Fees and Payment</span>
-                        </NavLink>
-                        <NavLink to="/dashboard/announcement" className={({ isActive }) => isActive ? "flex items-center gap-3 rounded-[10px] text-[15px] font-[700] bg-blue-100 text-blue-600 mb-5 h-14 p-3" : "flex items-center gap-3 text-[15px] font-[700] rounded-[10px] text-slate-600 hover:bg-[#DCE6FF] mb-5 h-14 p-3"}>
-=======
                         <NavLink to="/dashboard/fees" className={({ isActive }) => isActive ? "flex items-center gap-3 rounded-[10px] text-[15px] font-[700] bg-blue-100 text-blue-600 mb-5 h-14 p-3" : "flex items-center gap-3 text-[15px] font-[700] rounded-[10px] text-slate-600 hover:bg-[#DCE6FF] mb-5 h-14 p-3"}>
                             <i className="fa-solid fa-wallet text-[25px]"></i>
                             <span>Fees and Payment</span>
                         </NavLink>
-                        <NavLink to="/dashboard/announcements" className={({ isActive }) => isActive ? "flex items-center gap-3 rounded-[10px] text-[15px] font-[700] bg-blue-100 text-blue-600 mb-5 h-14 p-3" : "flex items-center gap-3 text-[15px] font-[700] rounded-[10px] text-slate-600 hover:bg-[#DCE6FF] mb-5 h-14 p-3"}>
->>>>>>> Stashed changes
+                        <NavLink to="/dashboard/announcement" className={({ isActive }) => isActive ? "flex items-center gap-3 rounded-[10px] text-[15px] font-[700] bg-blue-100 text-blue-600 mb-5 h-14 p-3" : "flex items-center gap-3 text-[15px] font-[700] rounded-[10px] text-slate-600 hover:bg-[#DCE6FF] mb-5 h-14 p-3"}>
                             <i className="fa-solid fa-bullhorn text-[25px]"></i>
                             <span>Announcements</span>
                         </NavLink>
@@ -70,11 +58,8 @@ function Navbar() {
                 </div>
             </nav> 
         </>
-<<<<<<< Updated upstream
-=======
 
 
->>>>>>> Stashed changes
     );
    
 };

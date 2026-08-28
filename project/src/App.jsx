@@ -32,7 +32,7 @@ function App() {
 
           <Route path="grades" element={<Grades />} />
 
-          <Route path="feesandpayment" element={<FeesAndPayment />} />
+          <Route path="fees" element={<FeesAndPayment />} />
 
           <Route path="announcement" element={<Announcement />} />
 
