@@ -7,6 +7,10 @@ const Rightsection = () => {
 
   const [showPassword, setShowPassword] = useState(false);
     const navigate = useNavigate();
+  
+  const handleSignup = (e) => {
+  e.preventDefault();
+};
 return(
     <div className="w-1/2 h-screen justify-center flex">
       <div className="flex bg-gray-200 justify-center px-8 md:px-16  w-full h-full">

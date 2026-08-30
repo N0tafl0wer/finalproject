@@ -95,15 +95,15 @@ const Support = () => {
     return (
         <div className="min-h-screen bg-[#F8F9FF] font-sans relative">
             <div className="flex w-full justify-end items-center gap-5 pr-10 mb-2">
-                <Link to="/dashboard/announcement" className="relative" title="View Announcements">
+                <Link to="/dashboard/announcement" className="relative mt-4" title="View Announcements">
                     <Bell className="w-5 h-5" />
                     <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full"></span>
                 </Link>
-                <div className="w-6 h-6 rounded-full bg-gray-200 border border-gray-300 overflow-hidden cursor-pointer shrink-0">
+                <div className="w-6 h-6 mt-4 rounded-full bg-gray-200 border border-gray-300 overflow-hidden cursor-pointer shrink-0">
                     <img src= {profileImageSrc} alt={currentUser.name} className="w-full h-full object-cover" onError={(e) => {e.target.src = defaultAvatar;}}/>
                 </div>
             </div>
-            <div className="h-1 w-full bg-gray-200 "></div>
+            <div className="h-0.5 w-full bg-gray-200 "></div>
             <div className="mx-auto w-full max-w-[1400px]">
                 
                 <div className="text-center mx-auto mt-20 mb-15">
